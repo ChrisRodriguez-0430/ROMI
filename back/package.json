@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Sera la parte que se conectara con el front para la prueba de ROMI",
+  "license": "ISC",
+  "author": "Christian",
+  "main": "index.js",
+  "type":"module",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
