@@ -3,11 +3,11 @@ import { nuevoUser,mostrarUser } from "../Controller/Usuarios.controller.js";
 const router = Router()
  
     // Agrega nuevos clientes via POST
-    router.post('/student',nuevoUser
+    router.post('/user',nuevoUser
     );
 
     // Obtener todos los clientes
-    router.get('/students', mostrarUser
+    router.get('/users', mostrarUser
     );
 
 
