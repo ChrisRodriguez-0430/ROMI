@@ -2,11 +2,11 @@ import { Router } from "express";
 import { nuevoUser,mostrarUser } from "../Controller/Usuarios.controller.js";
 const router = Router()
  
-    // Agrega nuevos clientes via POST
+    // Agrega nuevos usuarios via POST
     router.post('/user',nuevoUser
     );
 
-    // Obtener todos los clientes
+    // Obtener todos los usuarios
     router.get('/users', mostrarUser
     );
 
