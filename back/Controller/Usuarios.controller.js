@@ -1,7 +1,7 @@
 
 import UsuariosModels from '../Models/Usuarios.models.js';
 
-// Agrega un nuevo estudiante
+// Agrega un nuevo usuario
 export const nuevoUser = async (req, res, next) => {
     const estudiante = new UsuariosModels(req.body);
     try {
@@ -14,7 +14,7 @@ export const nuevoUser = async (req, res, next) => {
     }
 };
 
-// Muestra todos los estudiantes
+// Muestra todos los usuarios
 export const mostrarUser = async (req, res, next) => {
     try {
         const estudiantes = await UsuariosModels.find({});
